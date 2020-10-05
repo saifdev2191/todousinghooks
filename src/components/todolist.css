@@ -1,0 +1,35 @@
+.todocontainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.todolist {
+	/* padding: 5px;
+	width: 5vw;
+	cursor: pointer;
+	margin: 3px; */
+}
+
+.completed {
+	background: green;
+}
+
+.todoeachcontainer{
+	display: flex;
+	padding: 10px;
+	align-self: center;
+	width: 30vw;
+	cursor: pointer;
+}
+
+.actions{
+	display: flex;
+	justify-content: flex-end;
+	flex:1;
+}
+
+.formStyle{
+	display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
